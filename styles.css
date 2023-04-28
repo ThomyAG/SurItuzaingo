@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&display=swap');
+* {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    background-color: rgb(34, 50, 64);
+}
+
+#navBarText {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: rgb(217, 208, 197);
+}
+
+.menuHamburguesa {
+    color: rgb(217, 208, 197);
+}
+
+button.navbar-toggler{
+    border-color: rgb(217, 208, 197);
+}
+
+a.nav-link{
+    font-size: 1.5rem;
+    color: rgb(217, 208, 197);
+}
+
+/*  HEADER  */
+
+/*  MAIN   */
+
+
+/*  SALIDAS  */
+.programaSalidas {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programaSalidas h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0% auto 5% 3%;
+}
+
+.imgSalida {
+    width: 70%;
+    border: solid 2px black;
+}
+
+/*  TERRITORIOS  */
+
+.territorios {
+    width: 100%;
+}
+
+.territorios h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    margin: 0% auto 5% 3%;
+}
+
+#terriContainer {
+    margin: 1% 5% 5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonTerri {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2%;
+
+}
+
+/*  PROGRAMA SEMANAL  */
+
+.reuSemanal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reuSemanal h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    margin: 5% auto 5% 3%;
+}
+
+.reuSemanal img {
+    width: 90%;
+    border: solid 2px black;
+}

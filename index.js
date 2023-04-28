@@ -21,17 +21,14 @@ fetch("./territorios.json")
                         
                 }
                 function showTerri (e) {
-                    Toastify({
-                        text: "AGREGADO AL CARRITO",
-                        duration: 2000,
-                        gravity: "bottom",
-                        position: "right",
-                        className: "styleToastify",
-                        style: {
-                            background: "#71A621"
-                        }
-                        }).showToast()
-        
+                    let result = territorios.find(terri => terri.id == e.target.id)
+                        Swal.fire({
+                            imageUrl: `${result.imgUrl}`,
+                            imageWidth: 400,
+                            imageHeight: 200,
+                            showCloseButton: true,
+                            showConfirmButton: false
+                        })
                 }
 
         }
