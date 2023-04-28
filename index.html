@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,10 @@
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tablero de anuncios</a>
+                    <a class="nav-link" href="./pages/predicacion.html">Predicacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/tablero.html">Tablero de anuncios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/programaSemanal.html">Programa semanal</a>
@@ -29,23 +32,23 @@
             </div>
         </div>
     </nav>
-    <header>
-        <div class="divHeader"></div>
-    </header>
+    <header> </header>
     <main>
-        <section class="programaSalidas">
-            <h2>Salidas a la predicación</h2>
-            <img class="imgSalida" src="./salida.png" alt="">
+        <section class="presentacionSection">
+            <h2> Congregación Sur Ituzaingó</h2>
+            <h3> Dias y horario de reunión</h3>
+            <p>Miércoles 20hs</p>
+            <p>Sábados 18hs</p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.4710302936747!2d-58.63324893032383!3d-34.65762929516282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc75aee74cd37%3A0x4db35307c227bf27!2sPres.%20Manuel%20Quintana%20794%2C%20Castelar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1682697300024!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section class="territorios">
-            <h2>Territorios</h2>
-            <div id="terriContainer"></div>
+        <section class="utilesSection">
+            <a href="./pages/predicacion.html" class="iconosUtiles"><ion-icon name="briefcase-outline" ></ion-icon><p>PREDICACION</p></a>
+            <a href="./pages/tablero.html" class="iconosUtiles"><ion-icon name="megaphone-outline" ></ion-icon><p>ANUNCIOS</p></a>
+            <a href="./pages/programaSemanal.html" class="iconosUtiles"><ion-icon name="calendar-outline" ></ion-icon><p>PROGRAMA SEMANAL</p></a>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="./index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
+    </body>
 </html>
