@@ -1,0 +1,54 @@
+/*  SALIDAS  */
+
+.programaSalidas {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programaSalidas h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0% auto 5% 3%;
+}
+
+.imgSalida {
+    width: 70%;
+    border: solid 2px black;
+}
+
+/*  TERRITORIOS  */
+
+.territorios {
+    width: auto;
+}
+
+.territorios h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    width: 97%;
+    margin: 0% auto 5% 3%;
+}
+
+#terriContainer {
+    width: auto;
+    margin: 1% 5% 5% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonTerri {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2%;
+
+}
+
+.mapaCompleto {
+    width: 98%;
+    margin: 1% 1% 5% 1%;
+    border: 2px solid black;
+}

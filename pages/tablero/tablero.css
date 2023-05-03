@@ -1,0 +1,44 @@
+.grupos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.btnGrupos {
+    width: 90%;
+    margin: 10% auto 10% 5%;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+} 
+
+a.dropdown-toggle {
+    width: 20%;
+    border: 2px solid black;
+    padding: 2%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: rgb(91, 60, 136);
+}
+
+.grupos h3 {
+    font-size: 1.5rem;
+}
+
+.listaGrupos {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% auto 5% auto;
+    border: 2px solid rgb(91, 60, 136)    
+}
+
+.listaItem {
+    list-style: none;
+    padding: 1%;
+    width: 50%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: black
+}

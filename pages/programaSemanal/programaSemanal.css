@@ -1,0 +1,17 @@
+.reuSemanal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reuSemanal h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    margin: 5% auto 5% 3%;
+}
+
+.reuSemanal img {
+    width: 98%;
+    border: solid 2px black;
+}
