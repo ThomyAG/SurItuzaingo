@@ -24,6 +24,7 @@ a.dropdown-toggle {
 
 .grupos h3 {
     font-size: 1.5rem;
+    /* width: 100%; */
 }
 
 .listaGrupos {
@@ -36,8 +37,8 @@ a.dropdown-toggle {
 
 .listaItem {
     list-style: none;
-    padding: 1%;
-    width: 50%;
+    margin: 2%;
+    width: 100%;
     font-size: 1.1rem;
     font-weight: 300;
     color: black
