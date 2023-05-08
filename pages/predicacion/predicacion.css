@@ -52,3 +52,14 @@
     margin: 1% 1% 5% 1%;
     border: 2px solid black;
 }
+
+/*  ALERTA  */
+
+.alertStyle button.swal2-confirm {
+    background-color: rgb(91, 60, 136);
+}
+
+.alertStyle a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}

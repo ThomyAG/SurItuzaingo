@@ -27,10 +27,19 @@ fetch("./territorios.json")
                             imageWidth: 400,
                             imageHeight: 200,
                             showCloseButton: true,
-                            showConfirmButton: false
+                            showConfirmButton: true,
+                            idConfirmButton: "rutaBtn",
+                            confirmButtonText: `<a href="${result.ruta}">¿Como llegar? </a>`,
+                            customClass: "alertStyle"
                         })
                 }
 
         }
 
     })
+
+
+
+
+// CLASE ASIGANADA POR SWEET ALERT AL BOTON DE LA NOTIFICACION DE LOS TERRITORIOS
+    // swal2-confirm swal2-styled
