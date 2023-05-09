@@ -1,3 +1,4 @@
+
 /*  SALIDAS  */
 
 .programaSalidas {
@@ -19,10 +20,52 @@
     border: solid 2px black;
 }
 
+
+/* AGENDA DE ARREGLOS PARA LA PREDICACION   */
+
+.arreglosDePredi { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arreglosDePredi h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0% auto 5% 3%;
+}
+
+.dayContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    margin: 2% 1% 2% 1%;
+    justify-content: center;
+    background-color: rgb(217, 129, 78);
+    border-radius: 10%;
+}
+
+.day { 
+    font-size: 70%;
+    color: aliceblue;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.inputDay { 
+    width: 95%;
+    border-radius: 10%;
+    border-color: aliceblue;
+    height: 60px;
+    margin: 1% 0% 9% 0%;
+}
+
+
 /*  TERRITORIOS  */
 
 .territorios {
     width: auto;
+    margin-top: 5%;
 }
 
 .territorios h2 {
@@ -52,6 +95,7 @@
     margin: 1% 1% 5% 1%;
     border: 2px solid black;
 }
+
 
 /*  ALERTA  */
 

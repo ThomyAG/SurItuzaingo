@@ -34,3 +34,35 @@ fetch("./territorios.json")
             });
         }
     }
+
+const inputs = document.querySelectorAll('.inputDay');
+
+let values = {
+    lunes: '',
+    martes: '',
+    miercoles: '',
+    jueves: '',
+    viernes: '',
+    sabado: '',
+    domingo: '',
+    otros: ''
+};
+    
+const storedValues = JSON.parse(localStorage.getItem('values'));
+    if (storedValues) {
+        values = storedValues;
+        inputs.forEach(input => {
+            const inputId = input.id;
+            input.value = values[inputId];
+        });
+    }
+inputs.forEach(input => {
+    input.addEventListener('input', handleInput);
+    });
+    
+function handleInput(event) {
+    const inputValue = event.target.value;
+    const inputId = event.target.id;
+    values[inputId] = inputValue;
+    localStorage.setItem('values', JSON.stringify(values));
+}
