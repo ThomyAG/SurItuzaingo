@@ -1,0 +1,41 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arreglosDePredi { 
+    width: 95%;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.dayContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    margin: 2% 1% 2% 1%;
+    justify-content: center;
+    background-color: rgb(217, 129, 78);
+    border-radius: 10%;
+}
+
+.day { 
+    font-size: 70%;
+    color: aliceblue;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.inputDay { 
+    width: 95%;
+    border-radius: 10%;
+    border-color: aliceblue;
+    height: 50px;
+    margin: 1% 0% 9% 0%;
+}
