@@ -16,3 +16,24 @@
     width: 70%;
     border: solid 2px black;
 }
+
+.anuncioVisita h2{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0% auto 5% 3%;
+}
+
+.anuncioVisita h3{
+    font-size: 1.5rem;
+    margin: 0% auto 1% 3%;
+}
+
+.anuncioVisita h4{
+    font-size: 1.2rem;
+    margin: 5% auto 0% 5%;
+}
+
+.anuncioVisita p{
+    font-size: 1.1rem;
+    margin: 1% auto 1% 7%;
+}

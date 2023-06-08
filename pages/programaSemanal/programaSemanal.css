@@ -13,5 +13,9 @@
 
 .reuSemanal img {
     width: 98%;
-    border: solid 2px black;
+    /* border: solid 2px black; */
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
 }
